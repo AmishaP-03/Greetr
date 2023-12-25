@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greetings !</title>
+</head>
+<body>
+    <div id="logindiv">
+        <select id="lang">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+        </select>
+        <input type="button" id="login" value="Login"/>
+    </div>
+    <h1 id="greeting"></h1>
+
+    <!--We will need jquery support, hence it is loaded first-->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <!--Our custom library-->
+    <script src="Greetr.js"></script>
+
+    <!--We will be using our custom library here-->
+    <script src="app.js"></script>
+</body>
+</html>
+
